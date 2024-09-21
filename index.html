@@ -13,7 +13,28 @@
 </head>
 
 <body>
+    <main>
+        <img src="img/bag.png" alt="sacola de compras">
+        <form>
+            <input class="input-item" id="input-item" type="text" placeholder="Digite o item que deseja adicionar" />
+            <button id="adicionar-botao" id="adicionar-item">Salvar item</button>
+        </form>
 
+        <ul class="lista-de-compras">
+            <h2>Lista de compras</h2>
+        <hr/>
+        <p id="mensagem-lista-vazia" style="display: block;">Sua lista está vazia. Adicione itens a ela pra não 
+            esquecer nada na próxima compra!</p>
+        </ul>
+
+        <h2>Comprado</h2>
+        <hr />
+
+        <ul id="lista-comprados">
+
+        </ul>
+    </main>
+    <script src="script.js" type="module"></script>
 </body>
 
 </html>
